@@ -3,7 +3,7 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `YeCheng's Weekly Blog`,
+    title: "YeCheng's Weekly Blog",
     description: `Personal Blog`,
     image: `/favicon/favicon.ico`,
     siteUrl: `https://www.evawod.xyz`,
@@ -19,5 +19,7 @@ module.exports = {
         path: `${__dirname}/posts`,
       },
     },
+    "gatsby-plugin-mdx",
+    "gatsby-plugin-sass",
   ],
 };
