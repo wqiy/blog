@@ -1,29 +1,64 @@
 .container {
+  width: 100%;
+  min-width: 600px;
+}
+
+.side-bar {
+  display: block;
+  width: 20%;
+  height: 100%;
+  margin: auto;
+  background: #000;
+  max-width: 80%;
+  font-family: sans-serif;
+  box-shadow: -2 2 5 5 gray;
+}
+
+.content {
+  display: block;
   margin: auto;
   max-width: 80%;
   font-family: sans-serif;
+  box-shadow: -2 2 5 5 rgb(0, 0, 0);
+}
+
+.site-title {
+  font-size: 3rem;
+  color: rgb(87, 86, 86);
+  text-shadow: 1px 1px 1px #fff,-1px -1px 1px rgb(87, 86, 86);
+  font-weight: 700;
+  margin: 3rem 0;
 }
 
 .heading {
-  color: rebeccapurple;
+  color: rgb(87, 86, 86);
 }
+
 .nav-links {
   display: flex;
   list-style: none;
   padding-left: 0;
 }
+
 .nav-link-item {
   padding-right: 2rem;
 }
 
-.nav-link-item > a {
+.nav-link-item>a {
   text-decoration: none;
 }
 
-.nav-link-item > a:hover {
-  color: rgb(112, 1, 176);
+.nav-link-item>a:hover {
+  color: rgb(162, 162, 162);
 }
 
 .nav-link-text {
   color: black;
+}
+
+.img {
+  width: 550px;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
 }
