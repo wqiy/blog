@@ -33,4 +33,11 @@ const Layout = ({ pageTitle, children }) => {
   )
 }
 
+export const Head = ({pageTitle, description}) => (
+  <>
+    <title>{pageTitle}</title>
+    <meta name="description" content={description}></meta>
+  </>
+)
+
 export default Layout
