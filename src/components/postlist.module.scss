@@ -1,0 +1,39 @@
+.card {
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.card:hover {
+  background-color: #bbbbbb3d;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+}
+
+.card-title>a {
+  text-decoration: none;
+}
+
+.card-time {
+  font-size: 1rem;
+  color: gray;
+  font-weight: 400;
+}
+
+.card-button {
+  font-size: 1rem;
+  font-weight: 200;
+  font-family: 'Times New Roman', Times, serif;
+  color: gray;
+  text-align: center;
+  margin: auto;
+  padding: 4px;
+  text-decoration: none;
+}
+
+.card-button:hover {
+  border: 1px solid rgb(255, 138, 138);
+}
